@@ -32,11 +32,60 @@ console.log('variable string should return a value of: "9 - the number before is
 
 
 //Melt your brain with this Assignment Operators riddle.
+// What is the value of the var following?
 var crazy = 4;
-var changing = crazy*=5;     
-var numbers = changing-=10;  
-var are = numbers+=crazy;    
-var you = are%=16;          
-var still = are/=you;        
+var changing = crazy*=5;  
+var numbers = changing-=10;
+var are = numbers+=crazy;  
+var you = are %= 16;    
+var still = are/=you;    
 var following = still * crazy;
-console.log(following);
+// following
+
+
+//Create a function called 'isTyler' that accepts a name as its only argument. If the argument you pass in is 'tyler', return true. If the argument is anything else, return false.
+
+function isTyler(name) {
+	if (name === "tyler") {  
+      return true;
+    }
+  	else {
+      return false;
+    }
+}
+console.log(isTyler("tyler"));
+console.log(isTyler("tylesr"));
+
+//   function makeCounter() {
+//     var counter = 1;
+//     return function inner() {
+//       return counter++;
+//     }
+//   }
+  
+//   var count = makeCounter();
+//   count()
+//   count() 
+//   count() 
+//   count() 
+  
+//   Day 5 #5
+// Write a function named truthTester that takes in a parameter and checks if it is truthy or falsy. Return true if the parameter is truthy, and false if the parameter is falsy.
+  
+  function truthTester(test) {
+	  if (test) {
+		  return true;
+
+	  }
+	  else {
+		  return false;
+	  }
+  }
+  
+  console.log(truthTester(8));
+
+
+
+
+
+
